@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: "1.0"
+description: example-chart
+name: example-chart
+version: 1.0.0
+
+dependencies:
+  - name: common
+    repository: oci://docker.io/bitnamicharts
+    tags:
+      - bitnami-common
+    version: 2.27.0
